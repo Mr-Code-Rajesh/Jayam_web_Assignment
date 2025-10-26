@@ -43,8 +43,8 @@ This project was developed as part of an **assignment for Jayam Web Solution Pvt
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/jayam-store.git
-cd jayam-store
+git clone https://github.com/Mr-Code-Rajesh/Jayam_web_Assignment.git
+cd ecommerce
 ```
 
 ### 2️⃣ Install dependencies
