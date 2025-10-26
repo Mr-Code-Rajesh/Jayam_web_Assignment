@@ -1,0 +1,111 @@
+🧠 Quick Recap
+
+✅ Frontend: React + Zustand
+✅ Backend: json-server (db.json)
+✅ Auth: Firebase Google Login
+✅ UI: Tailwind / MUI
+✅ Features: Products, Wishlist, Cart, Orders, Admin panel
+
+
+
+🧠 How It Works Together : 
+| Step | Action                         | What Happens                 |
+| ---- | ------------------------------ | ---------------------------- |
+| 1    | App loads                      | `user` = null                |
+| 2    | `LoginPopup` visible           | Background blurred           |
+| 3    | User clicks Google login       | Firebase returns user        |
+| 4    | Zustand updates state          | `user` stored globally       |
+| 5    | Popup disappears               | App unblurred, shows main UI |
+| 6    | Navbar shows user name & photo | ✅ Fully dynamic!            |
+
+
+
+✅ 9️⃣ Summary Table
+Feature	Where It Lives	Example Endpoint
+
+Categories	  db.json → categories[]	/categories
+Products	  db.json → products[]	    /products
+Wishlist	  Zustand + JSON Server	    /wishlist?userId=...
+Cart	      Zustand + JSON Server	    /cart?userId=...
+Orders	      Zustand + JSON Server	    /orders
+Addresses	  Zustand + JSON Server	    /addresses?userId=...
+
+
+
+| Relationship       | Join Field                           | Example Usage                  |
+| ------------------ | ------------------------------------ | ------------------------------ |
+| Product ↔ Category | `product.categoryId` = `category.id` | show category name per product |
+| Wishlist ↔ Product | `wishlist.productId` = `product.id`  | show saved products            |
+| Wishlist ↔ User    | `wishlist.userId` = `user.uid`       | filter wishlist per user       |
+| Cart ↔ Product     | `cart.productId` = `product.id`      | show cart item details         |
+| Cart ↔ User        | `cart.userId` = `user.uid`           | user-specific cart             |
+| Orders ↔ User      | `orders.userId` = `user.uid`         | show user’s order history      |
+| Addresses ↔ User   | `addresses.userId` = `user.uid`      | show delivery addresses        |
+
+
+home
+Electronics
+fashion
+grocery
+mobile
+beauty 
+
+
+Json Server :
+npx json-server --watch db.json --port 3000
+
+const useStore = create((set, get) => ({
+  user: null,
+  products: [],
+  categories: [],
+  wishlist: [],
+  cart: [],
+
+  fetchProducts: async () => {
+    const res = await axios.get("http://localhost:3000/products");
+    set({ products: res.data });
+  },
+  fetchCategories: async () => {
+    const res = await axios.get("http://localhost:3000/categories");
+    set({ categories: res.data });
+  },
+
+  fetchWishlist: async () => {
+    const user = get().user;
+    if (!user) return;
+    const res = await axios.get(`http://localhost:3000/wishlist?userId=${user.uid}`);
+    set({ wishlist: res.data });
+  },
+  fetchCart: async () => {
+    const user = get().user;
+    if (!user) return;
+    const res = await axios.get(`http://localhost:3000/cart?userId=${user.uid}`);
+    set({ cart: res.data });
+  },
+
+  // Derived data (joins)
+  getWishlistProducts: () => {
+    const { wishlist, products } = get();
+    return wishlist
+      .map((w) => products.find((p) => p.id === w.productId))
+      .filter(Boolean);
+  },
+
+  getCartDetails: () => {
+    const { cart, products } = get();
+    return cart
+      .map((c) => {
+        const product = products.find((p) => p.id === c.productId);
+        return { ...product, quantity: c.quantity };
+      })
+      .filter(Boolean);
+  },
+}));
+
+
+
+
+
+
+
+

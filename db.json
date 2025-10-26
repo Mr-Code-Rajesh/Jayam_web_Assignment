@@ -1,0 +1,1098 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Home",
+      "img": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761236633/c1_mulnpv.png"
+    },
+    {
+      "id": "2",
+      "name": "Electronics",
+      "img": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761236649/c2_gjswo4.png"
+    },
+    {
+      "id": "3",
+      "name": "Fashion",
+      "img": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761236670/c3_zoyyfk.png"
+    },
+    {
+      "id": "4",
+      "name": "Grocery",
+      "img": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761236687/c4_y6j0c2.png"
+    },
+    {
+      "id": "5",
+      "name": "Mobile",
+      "img": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761236687/c5_zz78xr.png"
+    },
+    {
+      "id": "6",
+      "name": "Beauty",
+      "img": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761236686/c6_okdbco.png"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Wooden Dining Table",
+      "categoryId": 1,
+      "price": 199.99,
+      "stock": 8,
+      "description": "Solid wood dining table for family of four.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150678/hm10_ttzvna.png"
+    },
+    {
+      "id": "2",
+      "title": "Cotton Bedsheet Set",
+      "categoryId": 1,
+      "price": 49.99,
+      "stock": 15,
+      "description": "Soft and durable cotton bedsheet with pillow covers.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150671/hm9_i7jjgh.png"
+    },
+    {
+      "id": "3",
+      "title": "LED Wall Lamp",
+      "categoryId": 1,
+      "price": 29.99,
+      "stock": 20,
+      "description": "Modern wall-mounted LED lamp for ambient lighting.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150665/hm8_zo2xoh.png"
+    },
+    {
+      "id": "4",
+      "title": "Ceramic Vase Set",
+      "categoryId": 1,
+      "price": 24.5,
+      "stock": 30,
+      "description": "Decorative ceramic vases for living room.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150659/hm7_zcgg95.png"
+    },
+    {
+      "id": "5",
+      "title": "Kitchen Storage Jar",
+      "categoryId": 1,
+      "price": 19.5,
+      "stock": 40,
+      "description": "Airtight kitchen storage jars for spices.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150653/hm6_pxyxwi.png"
+    },
+    {
+      "id": "6",
+      "title": "Floor Carpet Rug",
+      "categoryId": 1,
+      "price": 89,
+      "stock": 10,
+      "description": "Soft woolen rug for bedrooms and living rooms.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150650/hm5_dbxmmd.png"
+    },
+    {
+      "id": "7",
+      "title": "Wall Clock",
+      "categoryId": 1,
+      "price": 39.99,
+      "stock": 18,
+      "description": "Stylish round wall clock with silent sweep.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150640/hm4_q5mmnc.png"
+    },
+    {
+      "id": "8",
+      "title": "Scented Candle Set",
+      "categoryId": 1,
+      "price": 25,
+      "stock": 25,
+      "description": "Aromatic candles for relaxation.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150635/hm3_g0elo7.png"
+    },
+    {
+      "id": "9",
+      "title": "Laundry Basket",
+      "categoryId": 1,
+      "price": 22.99,
+      "stock": 12,
+      "description": "Foldable laundry basket with handles.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150629/hm2_fq0umn.png"
+    },
+    {
+      "id": "10",
+      "title": "Wall Painting",
+      "categoryId": 1,
+      "price": 59.99,
+      "stock": 0,
+      "description": "Canvas wall painting for home décor.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150625/hm1_tpuso3.png"
+    },
+    {
+      "id": "11",
+      "title": "Wireless Headphones",
+      "categoryId": 2,
+      "price": 59.99,
+      "stock": 0,
+      "description": "Bluetooth noise-cancelling headphones.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149749/el10_ntz0ut.png"
+    },
+    {
+      "id": "12",
+      "title": "Smart LED TV 43\"",
+      "categoryId": 2,
+      "price": 499.99,
+      "stock": 8,
+      "description": "4K Ultra HD Smart LED Television with Wi-Fi.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149743/el9_vz9dzd.png"
+    },
+    {
+      "id": "13",
+      "title": "Bluetooth Speaker",
+      "categoryId": 2,
+      "price": 39.99,
+      "stock": 30,
+      "description": "Portable wireless speaker with deep bass.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149730/el7_iqoeje.png"
+    },
+    {
+      "id": "14",
+      "title": "Laptop Cooling Pad",
+      "categoryId": 2,
+      "price": 25,
+      "stock": 40,
+      "description": "Adjustable cooling pad with dual fans.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761149724/el6_bflwen.png"
+    },
+    {
+      "id": "15",
+      "title": "Gaming Mouse",
+      "categoryId": 2,
+      "price": 35.99,
+      "stock": 20,
+      "description": "RGB gaming mouse with adjustable DPI.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149738/el8_akozah.png"
+    },
+    {
+      "id": "16",
+      "title": "External Hard Drive 1TB",
+      "categoryId": 2,
+      "price": 79.99,
+      "stock": 15,
+      "description": "USB-C portable hard drive with fast transfer.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149718/el5_vjihku.png "
+    },
+    {
+      "id": "17",
+      "title": "Action Camera",
+      "categoryId": 2,
+      "price": 149.99,
+      "stock": 10,
+      "description": "Waterproof HD action camera with accessories.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149712/el4_ajfckf.png "
+    },
+    {
+      "id": "18",
+      "title": "Smartwatch",
+      "categoryId": 2,
+      "price": 129.99,
+      "stock": 18,
+      "description": "Fitness tracking smartwatch with heart-rate sensor.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149706/el3_gh0nkd.png "
+    },
+    {
+      "id": "19",
+      "title": "Wireless Keyboard",
+      "categoryId": 2,
+      "price": 45.99,
+      "stock": 22,
+      "description": "Ergonomic wireless keyboard for desktop/laptop.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149700/el2_ektixj.png"
+    },
+    {
+      "id": "20",
+      "title": "USB-C Charger",
+      "categoryId": 2,
+      "price": 19.99,
+      "stock": 50,
+      "description": "Fast-charging USB-C wall adapter.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149696/el1_zjbvtq.png "
+    },
+    {
+      "id": "21",
+      "title": "Men’s Casual Shirt",
+      "categoryId": 3,
+      "price": 29.99,
+      "stock": 20,
+      "description": "Comfortable cotton shirt for daily wear.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142988/fashion_9_t8ekur.png "
+    },
+    {
+      "id": "22",
+      "title": "Women’s Denim Jacket",
+      "categoryId": 3,
+      "price": 49.99,
+      "stock": 15,
+      "description": "Stylish blue denim jacket for all seasons.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142987/fashion_4_yclbzv.png"
+    },
+    {
+      "id": "23",
+      "title": "Men’s Sneakers",
+      "categoryId": 3,
+      "price": 69.99,
+      "stock": 25,
+      "description": "Lightweight sneakers with rubber sole.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142975/fashion_6_cpvr13.png "
+    },
+    {
+      "id": "24",
+      "title": "Women’s Handbag",
+      "categoryId": 3,
+      "price": 59.99,
+      "stock": 30,
+      "description": "Leather handbag with zip closure.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761142946/fashion_3_ys0ni5.png"
+    },
+    {
+      "id": "25",
+      "title": "Men’s T-Shirt",
+      "categoryId": 3,
+      "price": 19.99,
+      "stock": 40,
+      "description": "Cotton round-neck printed T-shirt.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142967/fashion_7_kj3whr.png "
+    },
+    {
+      "id": "26",
+      "title": "Women’s Kurti",
+      "categoryId": 3,
+      "price": 24.99,
+      "stock": 22,
+      "description": "Designer cotton kurti for casual occasions.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761142985/fashion_8_rw94ee.png"
+    },
+    {
+      "id": "27",
+      "title": "Unisex Sunglasses",
+      "categoryId": 3,
+      "price": 34.99,
+      "stock": 28,
+      "description": "UV-protected sunglasses with stylish frame.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761142980/fashion_10_qociez.png"
+    },
+    {
+      "id": "28",
+      "title": "Men’s Leather Belt",
+      "categoryId": 3,
+      "price": 19.99,
+      "stock": 50,
+      "description": "Pure leather formal belt.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761142949/fashion_2_j8z7vc.png"
+    },
+    {
+      "id": "29",
+      "title": "Women’s Scarf",
+      "categoryId": 3,
+      "price": 14.99,
+      "stock": 35,
+      "description": "Silk printed scarf for daily wear.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142925/fashion_1_bnw2xb.png"
+    },
+    {
+      "id": "30",
+      "title": "Men’s Hoodie",
+      "categoryId": 3,
+      "price": 39.99,
+      "stock": 18,
+      "description": "Comfort fleece hoodie for winter.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142966/fashion_5_fnzcxx.png"
+    },
+    {
+      "id": "31",
+      "title": "Organic Rice 5kg",
+      "categoryId": 4,
+      "price": 10.99,
+      "stock": 100,
+      "description": "Premium quality organic white rice.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761143604/grocery_10_edewjd.png"
+    },
+    {
+      "id": "32",
+      "title": "Wheat Flour 5kg",
+      "categoryId": 4,
+      "price": 8.99,
+      "stock": 120,
+      "description": "Stone-ground whole wheat flour.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761143595/grocery_9_yt7dfi.png "
+    },
+    {
+      "id": "33",
+      "title": "Sunflower Oil 1L",
+      "categoryId": 4,
+      "price": 3.99,
+      "stock": 200,
+      "description": "Refined sunflower cooking oil.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761143583/grocery_7_vtupum.png"
+    },
+    {
+      "id": "34",
+      "title": "Brown Sugar 1kg",
+      "categoryId": 4,
+      "price": 2.49,
+      "stock": 150,
+      "description": "Unrefined cane sugar with rich flavor.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143580/grocery_6_rzdrbh.png"
+    },
+    {
+      "id": "35",
+      "title": "Turmeric Powder 500g",
+      "categoryId": 4,
+      "price": 1.99,
+      "stock": 250,
+      "description": "Pure ground turmeric powder.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143574/grocery_5_l11kxp.png"
+    },
+    {
+      "id": "36",
+      "title": "Green Tea Pack",
+      "categoryId": 4,
+      "price": 4.99,
+      "stock": 80,
+      "description": "Detox green tea bags (pack of 50).",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143569/grocery_4_q8ulgj.png"
+    },
+    {
+      "id": "37",
+      "title": "Honey 500ml",
+      "categoryId": 4,
+      "price": 5.99,
+      "stock": 90,
+      "description": "Organic wild forest honey.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143589/grocery_8_rncrkn.png "
+    },
+    {
+      "id": "38",
+      "title": "Almonds 250g",
+      "categoryId": 4,
+      "price": 6.99,
+      "stock": 70,
+      "description": "Raw whole almonds rich in protein.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143145/grocery_3_e6cggu.png"
+    },
+    {
+      "id": "39",
+      "title": "Salt 1kg",
+      "categoryId": 4,
+      "price": 0.99,
+      "stock": 500,
+      "description": "Iodized table salt.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143139/grocery_2_naaigc.png"
+    },
+    {
+      "id": "40",
+      "title": "Black Pepper 200g",
+      "categoryId": 4,
+      "price": 3.5,
+      "stock": 150,
+      "description": "Whole black peppercorns.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143135/grocery_1_k5xoad.png"
+    },
+    {
+      "id": "41",
+      "title": "Smartphone A1",
+      "categoryId": 5,
+      "price": 399.99,
+      "stock": 20,
+      "description": "6.5-inch display with 128 GB storage.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761143757/mob_9_akdapo.png"
+    },
+    {
+      "id": "42",
+      "title": "Smartphone B2",
+      "categoryId": 5,
+      "price": 499.99,
+      "stock": 15,
+      "description": "Triple-camera smartphone with AMOLED screen.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143763/mob_10_wd0mqy.png"
+    },
+    {
+      "id": "43",
+      "title": "Smartphone C3",
+      "categoryId": 5,
+      "price": 599.99,
+      "stock": 12,
+      "description": "5G smartphone with 256 GB storage.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761143752/mob_8_drylco.png"
+    },
+    {
+      "id": "44",
+      "title": "Smartphone D4",
+      "categoryId": 5,
+      "price": 699.99,
+      "stock": 10,
+      "description": "Flagship model with OLED display.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143749/mob_7_l7mre8.png "
+    },
+    {
+      "id": "45",
+      "title": "Smartphone E5",
+      "categoryId": 5,
+      "price": 299.99,
+      "stock": 25,
+      "description": "Budget phone with long battery life.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761143742/mob_6_d9vfnn.png"
+    },
+    {
+      "id": "46",
+      "title": "Wireless Earbuds",
+      "categoryId": 5,
+      "price": 79.99,
+      "stock": 30,
+      "description": "Bluetooth earbuds with charging case.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143737/mob_5_ifvit2.png"
+    },
+    {
+      "id": "47",
+      "title": "Phone Case",
+      "categoryId": 5,
+      "price": 14.99,
+      "stock": 80,
+      "description": "Shockproof silicone protective case.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761143732/mob_4_lhd1il.png"
+    },
+    {
+      "id": "48",
+      "title": "Screen Protector",
+      "categoryId": 5,
+      "price": 9.99,
+      "stock": 100,
+      "description": "Tempered glass protector pack.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143728/mob_3_btsuef.png"
+    },
+    {
+      "id": "49",
+      "title": "Power Bank 10000 mAh",
+      "categoryId": 5,
+      "price": 39.99,
+      "stock": 40,
+      "description": "Portable power bank with dual USB output.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143724/mob_2_x4l02d.png"
+    },
+    {
+      "id": "50",
+      "title": "Wireless Charger",
+      "categoryId": 5,
+      "price": 29.99,
+      "stock": 35,
+      "description": "Fast wireless charging pad.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761143719/mob_1_evykzj.png"
+    },
+    {
+      "id": "51",
+      "title": "Moisturizing Cream",
+      "categoryId": 6,
+      "price": 15.99,
+      "stock": 40,
+      "description": "Hydrating face cream for all skin types.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142843/beauty_09_c6x3zk.jpg"
+    },
+    {
+      "id": "52",
+      "title": "Shampoo 500ml",
+      "categoryId": 6,
+      "price": 8.99,
+      "stock": 60,
+      "description": "Nourishing shampoo with natural ingredients.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142820/beauty_10_blc48k.png"
+    },
+    {
+      "id": "53",
+      "title": "Hair Conditioner",
+      "categoryId": 6,
+      "price": 9.99,
+      "stock": 55,
+      "description": "Smooth-finish conditioner for silky hair.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761142697/beauty_08_l77ijq.jpg"
+    },
+    {
+      "id": "54",
+      "title": "Face Wash",
+      "categoryId": 6,
+      "price": 6.99,
+      "stock": 70,
+      "description": "Gentle face wash for daily cleansing.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761142681/beauty_07_vdz5r8.png"
+    },
+    {
+      "id": "55",
+      "title": "Perfume Spray",
+      "categoryId": 6,
+      "price": 19.99,
+      "stock": 25,
+      "description": "Long-lasting fragrance for men and women.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761142677/beauty_06_bhty0v.jpg"
+    },
+    {
+      "id": "56",
+      "title": "Lip Balm",
+      "categoryId": 6,
+      "price": 4.99,
+      "stock": 80,
+      "description": "Moisturizing lip balm with SPF 15.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142677/beauty_05_gynkb1.jpg "
+    },
+    {
+      "id": "57",
+      "title": "Compact Powder",
+      "categoryId": 6,
+      "price": 12.99,
+      "stock": 30,
+      "description": "Smooth matte finish compact powder.",
+      "image": " https://res.cloudinary.com/deyd2rjye/image/upload/v1761142661/beauty_04_ywci5p.png"
+    },
+    {
+      "id": "58",
+      "title": "Nail Polish Set",
+      "categoryId": 6,
+      "price": 9.99,
+      "stock": 45,
+      "description": "Set of 6 colorful nail polishes.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142655/beauty_03_noagqh.png"
+    },
+    {
+      "id": "59",
+      "title": "Makeup Brush Kit",
+      "categoryId": 6,
+      "price": 29.99,
+      "stock": 20,
+      "description": "Professional makeup brush set with 10 pieces.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142651/beauty_02_hpwumu.png"
+    },
+    {
+      "id": "60",
+      "title": "Aloe Vera Gel",
+      "categoryId": 6,
+      "price": 7.99,
+      "stock": 65,
+      "description": "Pure aloe vera gel for skin and hair.",
+      "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761142649/beauty_01_tsb4f6.png"
+    }
+  ],
+  "users": [],
+  "wishlist": [],
+  "cart": [],
+  "orders": [
+    {
+      "id": "d81f",
+      "items": [
+        {
+          "id": "4",
+          "title": "Ceramic Vase Set",
+          "categoryId": 1,
+          "price": 24.5,
+          "stock": 30,
+          "description": "Decorative ceramic vases for living room.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150659/hm7_zcgg95.png"
+        },
+        {
+          "id": "5",
+          "title": "Kitchen Storage Jar",
+          "categoryId": 1,
+          "price": 19.5,
+          "stock": 40,
+          "description": "Airtight kitchen storage jars for spices.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150653/hm6_pxyxwi.png"
+        },
+        {
+          "id": "9",
+          "title": "Laundry Basket",
+          "categoryId": 1,
+          "price": 22.99,
+          "stock": 12,
+          "description": "Foldable laundry basket with handles.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150629/hm2_fq0umn.png"
+        },
+        {
+          "id": "10",
+          "title": "Wall Painting",
+          "categoryId": 1,
+          "price": 59.99,
+          "stock": 5,
+          "description": "Canvas wall painting for home décor.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150625/hm1_tpuso3.png"
+        },
+        {
+          "id": "8",
+          "title": "Scented Candle Set",
+          "categoryId": 1,
+          "price": 25,
+          "stock": 25,
+          "description": "Aromatic candles for relaxation.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150635/hm3_g0elo7.png"
+        },
+        {
+          "id": "7",
+          "title": "Wall Clock",
+          "categoryId": 1,
+          "price": 39.99,
+          "stock": 18,
+          "description": "Stylish round wall clock with silent sweep.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150640/hm4_q5mmnc.png"
+        },
+        {
+          "id": "6",
+          "title": "Floor Carpet Rug",
+          "categoryId": 1,
+          "price": 89,
+          "stock": 10,
+          "description": "Soft woolen rug for bedrooms and living rooms.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150650/hm5_dbxmmd.png"
+        },
+        {
+          "id": "12",
+          "title": "Smart LED TV 43\"",
+          "categoryId": 2,
+          "price": 499.99,
+          "stock": 8,
+          "description": "4K Ultra HD Smart LED Television with Wi-Fi.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149743/el9_vz9dzd.png"
+        }
+      ],
+      "totalAmount": 780.96,
+      "address": [
+        {
+          "id": "300f",
+          "name": "Rajesh",
+          "mobile": "6383168050",
+          "type": "Home",
+          "addressLine": "727,Thiruvaththi amman temple , thirukalimedu",
+          "city": "",
+          "state": "Kancheepuram",
+          "pincode": "631501",
+          "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+        }
+      ],
+      "status": "Arrived",
+      "orderDate": "2025-10-26T05:09:13.767Z"
+    },
+    {
+      "id": "bd32",
+      "items": [
+        {
+          "id": "2",
+          "title": "Cotton Bedsheet Set",
+          "categoryId": 1,
+          "price": 49.99,
+          "stock": 15,
+          "description": "Soft and durable cotton bedsheet with pillow covers.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150671/hm9_i7jjgh.png"
+        },
+        {
+          "id": "8",
+          "title": "Scented Candle Set",
+          "categoryId": 1,
+          "price": 25,
+          "stock": 25,
+          "description": "Aromatic candles for relaxation.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150635/hm3_g0elo7.png"
+        },
+        {
+          "id": "3",
+          "title": "LED Wall Lamp",
+          "categoryId": 1,
+          "price": 29.99,
+          "stock": 20,
+          "description": "Modern wall-mounted LED lamp for ambient lighting.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150665/hm8_zo2xoh.png"
+        },
+        {
+          "id": "4",
+          "title": "Ceramic Vase Set",
+          "categoryId": 1,
+          "price": 24.5,
+          "stock": 30,
+          "description": "Decorative ceramic vases for living room.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150659/hm7_zcgg95.png"
+        },
+        {
+          "id": "5",
+          "title": "Kitchen Storage Jar",
+          "categoryId": 1,
+          "price": 19.5,
+          "stock": 40,
+          "description": "Airtight kitchen storage jars for spices.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150653/hm6_pxyxwi.png"
+        }
+      ],
+      "totalAmount": 148.98000000000002,
+      "address": [
+        {
+          "id": "300f",
+          "name": "Rajesh",
+          "mobile": "6383168050",
+          "type": "Home",
+          "addressLine": "727,Thiruvaththi amman temple , thirukalimedu",
+          "city": "",
+          "state": "Kancheepuram",
+          "pincode": "631501",
+          "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+        },
+        {
+          "id": "6433",
+          "name": "Rajesh",
+          "mobile": "6383168050",
+          "type": "Home",
+          "addressLine": "727,thirukalimedu",
+          "city": "Kancheepuram",
+          "state": "Tamil Nadu",
+          "pincode": "631501",
+          "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+        }
+      ],
+      "status": "Confirmed",
+      "orderDate": "2025-10-26T12:59:01.122Z"
+    },
+    {
+      "id": "0bd6",
+      "items": [
+        {
+          "id": "2",
+          "title": "Cotton Bedsheet Set",
+          "categoryId": 1,
+          "price": 49.99,
+          "stock": 15,
+          "description": "Soft and durable cotton bedsheet with pillow covers.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150671/hm9_i7jjgh.png"
+        },
+        {
+          "id": "8",
+          "title": "Scented Candle Set",
+          "categoryId": 1,
+          "price": 25,
+          "stock": 25,
+          "description": "Aromatic candles for relaxation.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150635/hm3_g0elo7.png"
+        },
+        {
+          "id": "3",
+          "title": "LED Wall Lamp",
+          "categoryId": 1,
+          "price": 29.99,
+          "stock": 20,
+          "description": "Modern wall-mounted LED lamp for ambient lighting.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150665/hm8_zo2xoh.png"
+        },
+        {
+          "id": "4",
+          "title": "Ceramic Vase Set",
+          "categoryId": 1,
+          "price": 24.5,
+          "stock": 30,
+          "description": "Decorative ceramic vases for living room.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150659/hm7_zcgg95.png"
+        },
+        {
+          "id": "5",
+          "title": "Kitchen Storage Jar",
+          "categoryId": 1,
+          "price": 19.5,
+          "stock": 40,
+          "description": "Airtight kitchen storage jars for spices.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150653/hm6_pxyxwi.png"
+        }
+      ],
+      "totalAmount": 148.98000000000002,
+      "address": [
+        {
+          "id": "300f",
+          "name": "Rajesh",
+          "mobile": "6383168050",
+          "type": "Home",
+          "addressLine": "727,Thiruvaththi amman temple , thirukalimedu",
+          "city": "",
+          "state": "Kancheepuram",
+          "pincode": "631501",
+          "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+        },
+        {
+          "id": "6433",
+          "name": "Rajesh",
+          "mobile": "6383168050",
+          "type": "Home",
+          "addressLine": "727,thirukalimedu",
+          "city": "Kancheepuram",
+          "state": "Tamil Nadu",
+          "pincode": "631501",
+          "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+        }
+      ],
+      "status": "Confirmed",
+      "orderDate": "2025-10-26T12:59:12.021Z"
+    },
+    {
+      "id": "dd22",
+      "items": [
+        {
+          "id": "2",
+          "title": "Cotton Bedsheet Set",
+          "categoryId": 1,
+          "price": 49.99,
+          "stock": 15,
+          "description": "Soft and durable cotton bedsheet with pillow covers.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150671/hm9_i7jjgh.png"
+        },
+        {
+          "id": "8",
+          "title": "Scented Candle Set",
+          "categoryId": 1,
+          "price": 25,
+          "stock": 25,
+          "description": "Aromatic candles for relaxation.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150635/hm3_g0elo7.png"
+        },
+        {
+          "id": "3",
+          "title": "LED Wall Lamp",
+          "categoryId": 1,
+          "price": 29.99,
+          "stock": 20,
+          "description": "Modern wall-mounted LED lamp for ambient lighting.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150665/hm8_zo2xoh.png"
+        },
+        {
+          "id": "4",
+          "title": "Ceramic Vase Set",
+          "categoryId": 1,
+          "price": 24.5,
+          "stock": 30,
+          "description": "Decorative ceramic vases for living room.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150659/hm7_zcgg95.png"
+        },
+        {
+          "id": "5",
+          "title": "Kitchen Storage Jar",
+          "categoryId": 1,
+          "price": 19.5,
+          "stock": 40,
+          "description": "Airtight kitchen storage jars for spices.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150653/hm6_pxyxwi.png"
+        }
+      ],
+      "totalAmount": 148.98000000000002,
+      "address": [
+        {
+          "id": "300f",
+          "name": "Rajesh",
+          "mobile": "6383168050",
+          "type": "Home",
+          "addressLine": "727,Thiruvaththi amman temple , thirukalimedu",
+          "city": "",
+          "state": "Kancheepuram",
+          "pincode": "631501",
+          "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+        },
+        {
+          "id": "6433",
+          "name": "Rajesh",
+          "mobile": "6383168050",
+          "type": "Home",
+          "addressLine": "727,thirukalimedu",
+          "city": "Kancheepuram",
+          "state": "Tamil Nadu",
+          "pincode": "631501",
+          "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+        }
+      ],
+      "status": "Confirmed",
+      "orderDate": "2025-10-26T13:01:35.815Z"
+    },
+    {
+      "id": "f482",
+      "items": [
+        {
+          "id": "3",
+          "title": "LED Wall Lamp",
+          "categoryId": 1,
+          "price": 29.99,
+          "stock": 20,
+          "description": "Modern wall-mounted LED lamp for ambient lighting.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150665/hm8_zo2xoh.png"
+        },
+        {
+          "id": "4",
+          "title": "Ceramic Vase Set",
+          "categoryId": 1,
+          "price": 24.5,
+          "stock": 30,
+          "description": "Decorative ceramic vases for living room.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150659/hm7_zcgg95.png"
+        },
+        {
+          "id": "9",
+          "title": "Laundry Basket",
+          "categoryId": 1,
+          "price": 22.99,
+          "stock": 12,
+          "description": "Foldable laundry basket with handles.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150629/hm2_fq0umn.png"
+        },
+        {
+          "id": "12",
+          "title": "Smart LED TV 43\"",
+          "categoryId": 2,
+          "price": 499.99,
+          "stock": 8,
+          "description": "4K Ultra HD Smart LED Television with Wi-Fi.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149743/el9_vz9dzd.png"
+        },
+        {
+          "id": "15",
+          "title": "Gaming Mouse",
+          "categoryId": 2,
+          "price": 35.99,
+          "stock": 20,
+          "description": "RGB gaming mouse with adjustable DPI.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761149738/el8_akozah.png"
+        }
+      ],
+      "totalAmount": 613.46,
+      "address": [
+        {
+          "id": "300f",
+          "name": "Rajesh",
+          "mobile": "6383168050",
+          "type": "Home",
+          "addressLine": "727,Thiruvaththi amman temple , thirukalimedu",
+          "city": "",
+          "state": "Kancheepuram",
+          "pincode": "631501",
+          "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+        },
+        {
+          "id": "6433",
+          "name": "Rajesh",
+          "mobile": "6383168050",
+          "type": "Home",
+          "addressLine": "727,thirukalimedu",
+          "city": "Kancheepuram",
+          "state": "Tamil Nadu",
+          "pincode": "631501",
+          "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+        }
+      ],
+      "status": "On Process",
+      "orderDate": "2025-10-26T13:40:16.483Z"
+    },
+    {
+      "id": "5a01",
+      "items": [
+        {
+          "id": "3",
+          "title": "LED Wall Lamp",
+          "categoryId": 1,
+          "price": 29.99,
+          "stock": 20,
+          "description": "Modern wall-mounted LED lamp for ambient lighting.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150665/hm8_zo2xoh.png"
+        },
+        {
+          "id": "4",
+          "title": "Ceramic Vase Set",
+          "categoryId": 1,
+          "price": 24.5,
+          "stock": 30,
+          "description": "Decorative ceramic vases for living room.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150659/hm7_zcgg95.png"
+        },
+        {
+          "id": "5",
+          "title": "Kitchen Storage Jar",
+          "categoryId": 1,
+          "price": 19.5,
+          "stock": 40,
+          "description": "Airtight kitchen storage jars for spices.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150653/hm6_pxyxwi.png"
+        }
+      ],
+      "totalAmount": 73.99,
+      "address": {
+        "id": "6433",
+        "name": "Rajesh",
+        "mobile": "6383168050",
+        "type": "Home",
+        "addressLine": "727,thirukalimedu",
+        "city": "Kancheepuram",
+        "state": "Tamil Nadu",
+        "pincode": "631501",
+        "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+      },
+      "status": "On Process",
+      "orderDate": "2025-10-26T14:37:36.031Z"
+    },
+    {
+      "id": "7e72",
+      "items": [
+        {
+          "id": "3",
+          "title": "LED Wall Lamp",
+          "categoryId": 1,
+          "price": 29.99,
+          "stock": 20,
+          "description": "Modern wall-mounted LED lamp for ambient lighting.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150665/hm8_zo2xoh.png"
+        },
+        {
+          "id": "4",
+          "title": "Ceramic Vase Set",
+          "categoryId": 1,
+          "price": 24.5,
+          "stock": 30,
+          "description": "Decorative ceramic vases for living room.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150659/hm7_zcgg95.png"
+        },
+        {
+          "id": "5",
+          "title": "Kitchen Storage Jar",
+          "categoryId": 1,
+          "price": 19.5,
+          "stock": 40,
+          "description": "Airtight kitchen storage jars for spices.",
+          "image": "https://res.cloudinary.com/deyd2rjye/image/upload/v1761150653/hm6_pxyxwi.png"
+        }
+      ],
+      "totalAmount": 73.99,
+      "address": {
+        "id": "300f",
+        "name": "Rajesh",
+        "mobile": "6383168050",
+        "type": "Home",
+        "addressLine": "727,Thiruvaththi amman temple , thirukalimedu",
+        "city": "",
+        "state": "Kancheepuram",
+        "pincode": "631501",
+        "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+      },
+      "status": "Shipped",
+      "orderDate": "2025-10-26T14:42:12.346Z"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "300f",
+      "name": "Rajesh",
+      "mobile": "6383168050",
+      "type": "Home",
+      "addressLine": "727,Thiruvaththi amman temple , thirukalimedu",
+      "city": "",
+      "state": "Kancheepuram",
+      "pincode": "631501",
+      "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+    },
+    {
+      "id": "6433",
+      "name": "Rajesh",
+      "mobile": "6383168050",
+      "type": "Home",
+      "addressLine": "727,thirukalimedu",
+      "city": "Kancheepuram",
+      "state": "Tamil Nadu",
+      "pincode": "631501",
+      "userId": "5kFoDH0cHuZgMdJy2C6EMKK9e0q2"
+    }
+  ]
+}
