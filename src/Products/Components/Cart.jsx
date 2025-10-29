@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function Cart() {
   const navigate = useNavigate();
-  const { user } = useStore();
+ 
   const [addresses, setAddresses] = useState([]);
   const [selected, setSelected] = useState(null);
   const [loadingAddress, setLoadingAddress] = useState(true);
@@ -17,10 +17,15 @@ export default function Cart() {
   const cart = useStore((s) => s.cart);
   const ToggleCart = useStore((s) => s.ToggleCart);
   const FetchCart = useStore((s) => s.FetchCart);
+  const user = useStore((s) => s.user);
+
 
   useEffect(() => {
-    FetchCart();
-  }, [FetchCart]);
+    if (user?.uid) {
+      FetchCart(user.uid);
+    }
+  }, [user]);
+
 
   // Fetch Addresses
   const fetchAddresses = async () => {
@@ -149,7 +154,10 @@ export default function Cart() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => ToggleCart(item)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  ToggleCart({ ...item, id: item.productId }, user?.uid);
+                }}
                 className="mt-3 flex items-center justify-center gap-2 bg-gradient-to-r from-red-500 to-red-600 text-white py-2 px-4 rounded-md shadow-md hover:from-red-600 hover:to-red-700 transition-all text-sm w-full sm:w-auto"
               >
                 <X className="w-4 h-4" />
@@ -170,7 +178,7 @@ export default function Cart() {
             className="w-full sm:w-auto"
           >
             <Placeorder
-              userid={user?.id}
+              userid={user?.uid}
               addresses={addresses}
               selectedAddress={selected}
             />

@@ -4,10 +4,6 @@ import { Heart } from 'lucide-react';
 import { ShoppingCart } from 'lucide-react';
 import Spinner from './Spinner';
 import { motion } from 'framer-motion';
-import toast from 'react-hot-toast';
-
-// Notes : Product component to display list of products with add to cart and wishlist functionality.
-// Purpose: To showcase products fetched from the store and allow users to add them to their cart or wishlist.
 
 
 const Product = () => {
@@ -18,8 +14,9 @@ const Product = () => {
   const FetchProducts = useStore((s) => s.FetchProducts);
   const all = useStore(s => s.products);
   const query = useStore(s => s.searchQuery);
-
+  const user = useStore((s) => s.user);
   const products = (query?.trim()?.length ? filtered : all) ?? [];
+
 
   // wishlist
   const wishlist = useStore((s)=> s.wishlist);
@@ -33,10 +30,13 @@ const Product = () => {
 
 
   useEffect(() => {
-    FetchProducts();
-    FetchWishlist();
-    FetchCart();
-  }, [FetchProducts,FetchWishlist,FetchCart]);
+  FetchProducts();
+  if (user?.uid) {
+    FetchWishlist(user.uid);
+    FetchCart(user.uid);
+  }
+}, [user]);
+
 
 
   useEffect(()=>{
@@ -45,7 +45,8 @@ const Product = () => {
 
 
   // liked state
-  const isLiked = (id) => wishlist.some((item)=> String(item.id)=== String(id));
+  const isLiked = (id) =>
+  wishlist.some((item) => String(item.productId ?? item.id) === String(id));
 
 
   // Animation Variants
@@ -95,8 +96,8 @@ const item = {
           variants={item}
           whileHover={{ scale: 1.05, rotate: 0.3 }}
           whileTap={{ scale: 0.97 }}
-          className="relative bg-white shadow-sm rounded-xl flex flex-col w-56 hover:shadow-xl transition-transform duration-200 cursor-pointer overflow-hidden backdrop-blur-sm"
-        >
+          className="relative bg-white shadow-sm rounded-xl flex flex-col w-56 hover:shadow-xl transition-transform duration-200 cursor-pointer overflow-hidden backdrop-blur-sm">
+
           {/* Wishlist Heart */}
           <motion.div
             className="absolute right-3 top-3 z-20"
@@ -104,17 +105,16 @@ const item = {
             onClick={(e) => {
               e.stopPropagation();
               toggleLike(product.id);
-            }}
-          >
+            }}>
+              
             <Heart
               fill={isLiked(product.id) ? "red" : "white"}
               stroke={isLiked(product.id) ? "red" : "gray"}
               className="w-6 h-6 cursor-pointer transition-all duration-200"
               onClick={(e)=>{
                 e.stopPropagation()
-                ToggleWishlist(product);
-              }}
-            />
+                ToggleWishlist(product,user?.uid);
+              }}/>
 
           </motion.div>
 
@@ -155,7 +155,7 @@ const item = {
               className="mt-2 bg-yellow-500 cursor-pointer text-white px-3 py-1 rounded-md hover:bg-yellow-600 flex items-center justify-center gap-2 shadow-sm"
               onClick={(e)=>{
                   e.stopPropagation();
-                  ToggleCart(product);
+                  ToggleCart(product,user?.uid);
               }} >
               Add to Cart <ShoppingCart className="w-4 h-4" />
             </motion.button>

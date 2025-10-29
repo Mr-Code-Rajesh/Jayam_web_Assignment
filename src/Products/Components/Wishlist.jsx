@@ -2,18 +2,21 @@ import { useEffect } from "react";
 import useStore from "../../Store/useStore";
 import { motion } from "framer-motion";
 import Spinner from "./Spinner";
-import toast from "react-hot-toast";
 import { X, Heart } from "lucide-react";
+
 
 export default function Wishlist() {
   const wishlist = useStore((s) => s.wishlist);
   const ToggleWishlist = useStore((s) => s.ToggleWishlist);
   const FetchWishlist = useStore((s) => s.FetchWishlist);
   const loading = useStore((s) => s.loading);
+  const user = useStore((s) => s.user);
 
   useEffect(() => {
-    FetchWishlist();
-  }, [FetchWishlist]);
+    if (user?.uid) {
+      FetchWishlist(user?.uid);
+    }
+  }, [user]);
 
   if (loading) return <Spinner />;
 
@@ -81,16 +84,9 @@ export default function Wishlist() {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => {
-                    ToggleWishlist(item);
-                    toast.error(`Removed from Wishlist 💔`, {
-                      style: {
-                        borderRadius: "8px",
-                        background: "#fef2f2",
-                        color: "#b91c1c",
-                      },
-                      iconTheme: { primary: "#dc2626", secondary: "#fff" },
-                    });
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    ToggleWishlist({ ...item, id: item.productId }, user?.uid);
                   }}
                   className="mt-2 w-full sm:w-auto flex items-center justify-center gap-2 bg-gradient-to-r from-red-500 to-red-600 text-white py-2 px-4 rounded-md shadow-md hover:from-red-600 hover:to-red-700 transition-all duration-300"
                 >
@@ -105,3 +101,19 @@ export default function Wishlist() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

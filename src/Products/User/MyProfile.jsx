@@ -1,14 +1,12 @@
+import FAQ from "../../components/FAQ";
 import useStore from "../../Store/useStore";
-
-// Notes : MyProfile component to display user's profile information.
-// Purpose: To show the logged-in user's profile details such as name, email, and profile picture.
-
 
 export default function MyProfile() {
   const { user } = useStore();
 
   return (
-    <div className="max-w-lg mx-auto bg-white shadow-md rounded-xl p-6">
+   <div className=" w-full">
+      <div className="max-w-lg mx-auto bg-white shadow-md rounded-xl p-6">
       <h2 className="text-2xl font-semibold mb-4">My Profile</h2>
       {user && (
         <div className="flex flex-col items-center gap-4">
@@ -21,8 +19,11 @@ export default function MyProfile() {
           <p className="text-gray-600">{user.email}</p>
         </div>  
       )}
-
     </div>
+     <div className=" mt-5">
+      <FAQ />
+     </div>
+   </div>
   );
 }
 

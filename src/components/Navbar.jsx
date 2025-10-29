@@ -160,14 +160,16 @@ export default function Navbar() {
                 >
                   Wishlist
                 </Link>
-                {user?.email === "king.is.busy444@gmail.com" && (
+
+                {/* Admin condition we need check like , user?.email === "admin.com  when admin gmail true show admin panel otherwise not allowed*/}
+                
                   <Link
                     to="/admin"
                     className="block px-4 py-2 text-sm font-medium bg-yellow-500 text-white text-center rounded-md mx-2 mt-1 hover:bg-yellow-600 transition"
                   >
                     Admin Panel
                   </Link>
-                )}
+                
                 <button
                   onClick={handleLogout}
                   className="block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition text-red-600 font-medium"

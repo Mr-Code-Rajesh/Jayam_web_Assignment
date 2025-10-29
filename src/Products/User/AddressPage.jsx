@@ -1,5 +1,5 @@
-import AddAddressForm from "./AddressList";
-import AddressList from "./AddAddressForm";
+import AddAddressForm from "./AddAddressForm";
+import AddressList from "./AddressList";
 import { useState } from "react";
 
 export default function AddressPage() {

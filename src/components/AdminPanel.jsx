@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import useStore from "../Store/useStore";
-import axios from "axios";
-import { toast } from "react-hot-toast";
 import { motion } from "framer-motion";
 
 // Notes : AdminPanel component to manage and update order statuses.
@@ -9,29 +7,18 @@ import { motion } from "framer-motion";
 
 
 export default function AdminPanel() {
-  const { orders, FetchOrders } = useStore();
+  const { orders, FetchOrders, UpdateOrderStatus } = useStore();
   const [updating, setUpdating] = useState(false);
 
   //all orders 
   useEffect(() => {
-    FetchOrders(); 
-  }, [FetchOrders]);
+    FetchOrders(null,true); 
+  }, []);
 
-  const updateStatus = async (orderId, newStatus) => {
-    try {
-      setUpdating(true);
-      await axios.patch(`http://localhost:3000/orders/${orderId}`, {
-        status: newStatus,
-      });
-      toast.success(`Order #${orderId} marked as ${newStatus}`);
-      FetchOrders();
-    } catch (err) {
-      console.error("Error updating status", err);
-      toast.error("Failed to update status");
-    } finally {
-      setUpdating(false);
-    }
-  };
+  const handleUpdateStatus = (orderId, newStatus) => {
+  UpdateOrderStatus(orderId, newStatus, true);
+ };
+
 
   const statuses = ["On Process", "Shipped", "Arrived", "Delivered"];
 
@@ -46,6 +33,7 @@ export default function AdminPanel() {
           {orders.map((order) => (
             <motion.div
               key={order.id}
+              animate={{ backgroundColor: "#f0fff4" }}
               whileHover={{ scale: 1.01 }}
               className="bg-white p-5 rounded-xl shadow-md border border-gray-100"
             >
@@ -110,7 +98,7 @@ export default function AdminPanel() {
                 </div>
               )}
 
-              {/* Footer: Status Update */}
+              {/* Footer */}
               <div className="mt-4 flex justify-between items-center">
                 <p className="font-semibold text-gray-800">
                   Total: ${order.totalAmount.toFixed(2)}
@@ -118,10 +106,9 @@ export default function AdminPanel() {
 
                 <select
                   value={order.status}
-                  onChange={(e) => updateStatus(order.id, e.target.value)}
+                  onChange={(e) => handleUpdateStatus(order.id, e.target.value)}
                   disabled={updating}
-                  className="border border-gray-300 rounded-md px-3 py-1 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
-                >
+                  className="border border-gray-300 rounded-md px-3 py-1 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
                   {statuses.map((s) => (
                     <option key={s} value={s}>
                       {s}

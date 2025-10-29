@@ -7,7 +7,7 @@ export default function Dashboard() {
 
   return (
     <div className="flex h-screen relative">
-      {/* Mobile Hamburger */}
+      {/* Mobile portrait */}
       <button
         className="absolute top-4 left-4 md:hidden z-50 bg-gray-800 text-white p-2 rounded"
         onClick={() => setSidebarOpen(!sidebarOpen)}
@@ -64,7 +64,7 @@ export default function Dashboard() {
         />
       )}
 
-      {/* Right Content Area */}
+      {/* Right Content  */}
       <main className="flex-1 p-6 overflow-y-auto md:ml-0 mt-12 md:mt-0">
         <Outlet />
       </main>

@@ -41,7 +41,7 @@ export default function Placeorder({ userid, selectedAddress }) {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          onClick={ClearCart}
+          onClick={() => ClearCart(user?.id)}
           className="w-full sm:w-auto bg-red-500 hover:bg-red-600 text-white px-5 py-2.5 rounded-md shadow-md transition-all duration-300 flex items-center justify-center gap-2"
         >
           🗑 Clear Cart

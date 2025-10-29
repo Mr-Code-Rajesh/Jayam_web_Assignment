@@ -6,6 +6,8 @@ export default function AddressList() {
   const { user } = useStore();
   const [addresses, setAddresses] = useState([]);
 
+
+  // Fetch Addresses
   const fetchAddresses = async () => {
     if (!user) return;
     const res = await axios.get(`http://localhost:3000/addresses?userId=${user.uid}`);
@@ -15,6 +17,7 @@ export default function AddressList() {
   useEffect(() => {
     fetchAddresses();
   }, [user]);
+
 
   return (
     <div className="mt-6">

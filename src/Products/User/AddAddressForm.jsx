@@ -15,10 +15,12 @@ export default function AddAddressForm({ onSuccess }) {
     pincode: ""
   });
 
+  // Handle input changes
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
+  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!user) return alert("Please login first.");
@@ -45,6 +47,7 @@ export default function AddAddressForm({ onSuccess }) {
     }
   };
 
+  
   return (
     <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md space-y-4">
       <h3 className="text-lg font-semibold">Add a New Address</h3>

@@ -5,8 +5,8 @@ export default function Orders() {
   const { orders, FetchOrders, user } = useStore();
 
   useEffect(() => {
-    if (user) FetchOrders(user.id);
-  }, [user, FetchOrders]);
+    if (user?.uid) FetchOrders(user.uid);
+  }, [user,FetchOrders]);
 
   return (
     <div className="p-6 max-w-5xl mx-auto">
