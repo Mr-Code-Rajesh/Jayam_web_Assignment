@@ -1,0 +1,42 @@
+ /* Toast style */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ==== GOLD SCROLLBAR DESIGN ==== */
+::-webkit-scrollbar {
+  width: 10px;               
+  height: 10px;              
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1a1a1a;      
+  border-radius: 10px;
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #fcd34d, #d4af37); 
+  border-radius: 10px;
+  border: 2px solid #1a1a1a; 
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #facc15, #b8860b);
+}
+
+/* Corner (for when both axes visible) */
+::-webkit-scrollbar-corner {
+  background: #1a1a1a;
+}
+
+
